@@ -1,5 +1,5 @@
 import pandas as pd
-from pandasql import sqldf
+from pandasql import sqldf 
 import streamlit as st
 
 st.title("CSV Explorer")
