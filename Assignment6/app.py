@@ -88,3 +88,5 @@ if user_msg:
         st.write_stream(stream_text(bot_reply))
 
     st.session_state.messages.append({"role": "assistant","content": bot_reply,"model": model_choice})
+
+    
